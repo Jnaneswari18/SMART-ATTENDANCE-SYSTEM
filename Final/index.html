@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Smart Attendance System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Smart Attendance System</h1>
+    <p>Mark your attendance by capturing a photo once per day.</p>
+
+    <div class="camera-section">
+      <video id="video" autoplay></video>
+      <canvas id="canvas" style="display:none;"></canvas>
+    </div>
+
+    <div class="controls">
+      <input type="text" id="studentName" placeholder="Enter your name" required>
+      <input type="text" id="registerNumber" placeholder="Enter register number" required>
+      <button id="startCamera">Start Camera</button>
+      <button id="capturePhoto">Capture & Submit Attendance</button>
+    </div>
+
+    <div class="message" id="message"></div>
+
+    <div class="attendance-section">
+      <h2>Attendance History</h2>
+      <table id="attendanceTable">
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,99 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #101720;
+  color: #f1f5f9;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  margin: 0;
+  padding: 30px;
+}
+
+.container {
+  max-width: 500px;
+  width: 100%;
+  background: #1e293b;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #38bdf8;
+}
+
+.camera-section {
+  position: relative;
+  width: 100%;
+  height: 280px;
+  background: #000;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.controls {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+input {
+  padding: 8px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  background: #334155;
+  color: #f8fafc;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  background: #38bdf8;
+  color: #022c22;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0ea5e9;
+}
+
+.message {
+  margin-top: 12px;
+  text-align: center;
+  font-weight: bold;
+  color: #10b981;
+}
+
+.attendance-section {
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  color: #e2e8f0;
+}
+
+th, td {
+  border: 1px solid #334155;
+  padding: 6px;
+  text-align: center;
+}
+
+th {
+  background: #0f172a;
+}
+
