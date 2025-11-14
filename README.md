@@ -1,11 +1,11 @@
 # SMART-ATTENDANCE-SYSTEM
 Abstract:
 
-1.The Smart Attendance System is an AI ML based web application designed to automate the process of marking student attendance.
+1.The Smart Attendance System is a web application designed to automate the process of marking student attendance.
 2.It captures a student’s face through a webcam, verifies their presence using face recognition, and validates their location using GPS coordinates to ensure authenticity.
 3.The system ensures accurate, tamper-proof attendance marking and stores data securely for future reference.
 <img width="2615" height="368" alt="image" src="https://github.com/user-attachments/assets/c187f2bc-2f20-4b2a-ab0e-9afef3467da0" />
-<img width="634" height="706" alt="image" src="https://github.com/user-attachments/assets/c6ff612e-f412-43a3-ad0a-4be220430d6b" />
+
 Introduction:
 
 In most educational institutions, attendance management is still handled manually through roll calls or paper registers. This traditional approach is time-consuming, inefficient, and prone to human error. Moreover, it opens the door to manipulation, such as students marking attendance for their friends or providing false information.
